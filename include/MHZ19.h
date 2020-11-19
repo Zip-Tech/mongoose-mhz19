@@ -1,17 +1,18 @@
 /* -------------------------------------------------
-//   Author: Jonathan Dempsey JDWifWaf@gmail.com
+  Author: Jonathan Dempsey JDWifWaf@gmail.com
   
-//   Version: 1.5.2
+  Version: 1.5.2
 
-//   License: LGPLv3
+  License: LGPLv3
 
-//   Library supporting MHZ19 sensors
-// ----------------------------------------------------- */
+  Library supporting MHZ19 sensors
+----------------------------------------------------- */
 
 #ifndef MHZ19_H
 #define MHZ19_H
 
 #include <Arduino.h>
+#include <Stream.h>
 
 #ifdef ESP32
 #include "esp32-hal-log.h"

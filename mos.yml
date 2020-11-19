@@ -12,13 +12,7 @@ filesystem:
   - fs
 config_schema:
 libs:
-  - origin: https://github.com/mongoose-os-libs/arduino-compat
-  - origin: https://github.com/mongoose-os-libs/arduino-wire
-  - origin: https://github.com/mongoose-os-libs/arduino-spi
-  - origin: https://github.com/mongoose-os-libs/i2c
-  - origin: https://github.com/mongoose-os-libs/spi
-  - origin: https://github.com/mongoose-os-libs/mjs
-  - origin: https://github.com/mongoose-os-libs/adc 
+  - origin: https://github.com/mongoose-os-libs/arduino-compat 
 
 tags:
   - c
