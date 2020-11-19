@@ -44,7 +44,7 @@ void MHZ19::begin(Stream &serial)
         #if defined (ESP32) && (MHZ19_ERRORS)
         ESP_LOGE(TAG_MHZ19, "Initial communication errorCode recieved");
         #elif MHZ19_ERRORS
-        Serial.println("!ERROR: Initial communication errorCode recieved");
+        // Serial.println("!ERROR: Initial communication errorCode recieved");
         #endif 
     }
 }
@@ -58,7 +58,7 @@ void MHZ19::setRange(int range)
         #if defined (ESP32) && (MHZ19_ERRORS)
         ESP_LOGE(TAG_MHZ19, "Invalid Range value (0 - 65000)");
         #elif MHZ19_ERRORS
-        Serial.println("!ERROR: Invalid Range value (0 - 65000)");
+        // Serial.println("!ERROR: Invalid Range value (0 - 65000)");
         #endif 
 
         return;
@@ -75,7 +75,7 @@ void MHZ19::setSpan(int span)
         #if defined (ESP32) && (MHZ19_ERRORS)
         ESP_LOGE(TAG_MHZ19, "Invalid Span value (0 - 10000)");   
         #elif MHZ19_ERRORS
-        Serial.println("!ERROR: Invalid Span value (0 - 10000)");
+        // Serial.println("!ERROR: Invalid Span value (0 - 10000)");
         #endif 
     }
     else
@@ -375,7 +375,7 @@ void MHZ19::verify()
            #if defined (ESP32) && (MHZ19_ERRORS)
             ESP_LOGE(TAG_MHZ19, "Failed to verify connection(1) to sensor.");   
             #elif MHZ19_ERRORS
-            Serial.println("!ERROR: Failed to verify connection(1) to sensor.");
+            // Serial.println("!ERROR: Failed to verify connection(1) to sensor.");
             #endif   
 
             return;
@@ -396,7 +396,7 @@ void MHZ19::verify()
             #if defined (ESP32) && (MHZ19_ERRORS)
             ESP_LOGE(TAG_MHZ19, "Failed to verify connection(2) to sensor.");   
             #elif MHZ19_ERRORS
-            Serial.println("!ERROR: Failed to verify connection(2) to sensor.");
+            // Serial.println("!ERROR: Failed to verify connection(2) to sensor.");
             #endif
             
             return;
@@ -411,7 +411,7 @@ void MHZ19::verify()
             #if defined (ESP32) && (MHZ19_ERRORS)
             ESP_LOGE(TAG_MHZ19, "Last response is not as expected, verification failed.");   
             #elif MHZ19_ERRORS
-            Serial.println("!ERROR: Last response is not as expected, verification failed.");
+            // Serial.println("!ERROR: Last response is not as expected, verification failed.");
             #endif
 
             return;
@@ -548,6 +548,8 @@ void MHZ19::constructCommand(Command_Type commandtype, int inData)
         if (this->storage.settings.ABCRepeat == false)
             asemblecommand[3] = inData;
         break;
+    case GETABC:
+        break;
     case RAWCO2:
         break;
     case CO2UNLIM:
@@ -597,7 +599,7 @@ void MHZ19::write(byte toSend[])
     mySerial->write(toSend, MHZ19_DATA_LEN); 
  
     /* send */
-    mySerial->flush(); 
+    // mySerial->flush(); 
 }
 
 byte MHZ19::read(byte inBytes[MHZ19_DATA_LEN], Command_Type commandnumber)
@@ -619,7 +621,7 @@ byte MHZ19::read(byte inBytes[MHZ19_DATA_LEN], Command_Type commandnumber)
             #if defined (ESP32) && (MHZ19_ERRORS) 
             ESP_LOGW(TAG_MHZ19, "Timed out waiting for response");    
             #elif MHZ19_ERRORS
-            Serial.println("!Error: Timed out waiting for response");
+            // Serial.println("!Error: Timed out waiting for response");
             #endif  
 
             this->errorCode = RESULT_TIMEOUT;
@@ -632,7 +634,7 @@ byte MHZ19::read(byte inBytes[MHZ19_DATA_LEN], Command_Type commandnumber)
                 #if defined (ESP32) && (MHZ19_ERRORS) 
                 ESP_LOGW(TAG_MHZ19, "Clearing Byte: %d", inBytes[0]);  
                 #elif MHZ19_ERRORS
-                Serial.print("!Warning: Clearing Byte: "); Serial.println(inBytes[0]);
+                // Serial.print("!Warning: Clearing Byte: "); // Serial.println(inBytes[0]);
                 #endif     
             }
             //return error condition
@@ -686,56 +688,56 @@ void MHZ19::printstream(byte inBytes[MHZ19_DATA_LEN], bool isSent, byte pserrorC
 {
     if (pserrorCode != RESULT_OK && isSent == false)
     {
-        Serial.print("Recieved >> ");
+        // Serial.print("Recieved >> ");
         if (this->storage.settings._isDec)
         {
-            Serial.print("DEC: ");
+            // Serial.print("DEC: ");
             for (uint8_t i = 0; i < MHZ19_DATA_LEN; i++)
             {
-                Serial.print(inBytes[i]);
-                Serial.print(" ");
+                // Serial.print(inBytes[i]);
+                // Serial.print(" ");
             }
         }
-        else
-        {
-            for (uint8_t i = 0; i < MHZ19_DATA_LEN; i++)
-            {
-                Serial.print("0x");
-                if (inBytes[i] < 16)
-                    Serial.print("0");
-                Serial.print(inBytes[i], HEX);
-                Serial.print(" ");
-            }
-        }
-        Serial.print("ERROR Code: ");
-        Serial.println(pserrorCode);
+        // else
+        // {
+            // for (uint8_t i = 0; i < MHZ19_DATA_LEN; i++)
+            // {
+                // Serial.print("0x");
+                // if (inBytes[i] < 16)
+                    // Serial.print("0");
+                // Serial.print(inBytes[i], HEX);
+                // Serial.print(" ");
+            // }
+        // }
+        // Serial.print("ERROR Code: ");
+        // Serial.println(pserrorCode);
     }
 
     else
     {
-        isSent ? Serial.print("Sent << ") : Serial.print("Recieved >> ");
+        // isSent ? // Serial.print("Sent << ") : // Serial.print("Recieved >> ");
 
         if (this->storage.settings._isDec)
         {
-            Serial.print("DEC: ");
+            // Serial.print("DEC: ");
             for (uint8_t i = 0; i < MHZ19_DATA_LEN; i++)
             {
-                Serial.print(inBytes[i]);
-                Serial.print(" ");
+                // Serial.print(inBytes[i]);
+                // Serial.print(" ");
             }
         }
         else
         {
             for (uint8_t i = 0; i < MHZ19_DATA_LEN; i++)
             {
-                Serial.print("0x");
-                if (inBytes[i] < 16)
-                    Serial.print("0");
-                Serial.print(inBytes[i], HEX);
-                Serial.print(" ");
+                // Serial.print("0x");
+                // if (inBytes[i] < 16)
+                    // Serial.print("0");
+                // Serial.print(inBytes[i], HEX);
+                // Serial.print(" ");
             }
         }
-        Serial.println(" ");
+        // Serial.println(" ");
     }
 }
 
