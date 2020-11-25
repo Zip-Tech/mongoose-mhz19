@@ -10,6 +10,7 @@
 
 #include "Arduino.h"
 #include "SoftwareSerial.h"
+#include "Stream.h"
 
 enum MHZ19_UART_DATA
 {

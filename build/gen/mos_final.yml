@@ -8,33 +8,33 @@ platforms:
 author: zip tech
 description: mhz19 co2 sensor
 sources:
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/src/mgos_mhz19.c
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/src/MHZ19.cpp
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/src/mgos_mhz19.cpp
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/src/mgos_mhz19.c
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/src/MHZ19.cpp
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/src/mgos_mhz19.cpp
 includes:
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/i2c/include
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/atca/include
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/atca/cryptoauthlib/lib
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/atca/cryptoauthlib/lib/crypto
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/atca/cryptoauthlib/lib/hal
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/mbedtls/include
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/mbedtls/include/esp8266
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/mbedtls/mbedtls/include
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/vfs-common/include
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/vfs-common/include/esp8266
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/mongoose/include
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/vfs-dev-part/include
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/vfs-fs-lfs/include
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/vfs-fs-lfs/littlefs
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/vfs-fs-lfs/littlefs1
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/vfs-fs-spiffs/include
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/vfs-fs-spiffs/include/spiffs
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/vfs-fs-spiffs/include/esp8266
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/core/include
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/core/include/esp8266
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/arduino-compat/include
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/arduino-compat/include/sys
-- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/include
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/i2c/include
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/include
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/cryptoauthlib/lib
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/cryptoauthlib/lib/crypto
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/cryptoauthlib/lib/hal
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mbedtls/include
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mbedtls/include/esp8266
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mbedtls/mbedtls/include
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-common/include
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-common/include/esp8266
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mongoose/include
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-dev-part/include
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-lfs/include
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-lfs/littlefs
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-lfs/littlefs1
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-spiffs/include
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-spiffs/include/spiffs
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-spiffs/include/esp8266
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/core/include
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/core/include/esp8266
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/arduino-compat/include
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/arduino-compat/include/sys
+- /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/include
 config_schema:
 - - i2c
   - o
@@ -225,92 +225,92 @@ libs_handled:
     origin: https://github.com/mongoose-os-libs/i2c
     location: https://github.com/mongoose-os-libs/i2c
     name: i2c
-  path: /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/i2c
+  path: /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/i2c
   init_deps:
   - core
   sources:
-  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/i2c/src
-  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/i2c/src/gpio
+  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/i2c/src
+  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/i2c/src/gpio
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/atca
     location: https://github.com/mongoose-os-libs/atca
     name: atca
-  path: /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/atca
+  path: /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca
   init_deps:
   - i2c
   sources:
-  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/atca/src
-  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/atca/cryptoauthlib/lib
-  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/atca/cryptoauthlib/lib/basic
-  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/atca/cryptoauthlib/lib/host
-  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/atca/cryptoauthlib/lib/mbedtls/atca_mbedtls_wrap.c
+  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/src
+  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/cryptoauthlib/lib
+  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/cryptoauthlib/lib/basic
+  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/cryptoauthlib/lib/host
+  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/cryptoauthlib/lib/mbedtls/atca_mbedtls_wrap.c
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/mbedtls
     location: https://github.com/mongoose-os-libs/mbedtls
     name: mbedtls
-  path: /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/mbedtls
+  path: /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mbedtls
   sources:
-  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/mbedtls/src
-  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/mbedtls/src/esp8266
-  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/mbedtls/mbedtls/library
+  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mbedtls/src
+  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mbedtls/src/esp8266
+  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mbedtls/mbedtls/library
   version: 2.16.6-cesanta1
 - lib:
     origin: https://github.com/mongoose-os-libs/vfs-common
     location: https://github.com/mongoose-os-libs/vfs-common
     name: vfs-common
-  path: /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/vfs-common
+  path: /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-common
   sources:
-  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/vfs-common/src
-  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/vfs-common/src/esp8266
+  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-common/src
+  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-common/src/esp8266
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/mongoose
     location: https://github.com/mongoose-os-libs/mongoose
     name: mongoose
-  path: /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/mongoose
+  path: /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mongoose
   sources:
-  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/mongoose/src
+  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mongoose/src
   version: "6.16"
 - lib:
     origin: https://github.com/mongoose-os-libs/vfs-dev-part
     location: https://github.com/mongoose-os-libs/vfs-dev-part
     name: vfs-dev-part
-  path: /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/vfs-dev-part
+  path: /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-dev-part
   init_deps:
   - vfs-common
   sources:
-  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/vfs-dev-part/src
+  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-dev-part/src
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/vfs-fs-lfs
     location: https://github.com/mongoose-os-libs/vfs-fs-lfs
     name: vfs-fs-lfs
-  path: /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/vfs-fs-lfs
+  path: /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-lfs
   init_deps:
   - vfs-common
   sources:
-  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/vfs-fs-lfs/src
-  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/vfs-fs-lfs/littlefs
-  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/vfs-fs-lfs/littlefs1
+  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-lfs/src
+  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-lfs/littlefs
+  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-lfs/littlefs1
   version: 2.2.0
 - lib:
     origin: https://github.com/mongoose-os-libs/vfs-fs-spiffs
     location: https://github.com/mongoose-os-libs/vfs-fs-spiffs
     name: vfs-fs-spiffs
-  path: /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/vfs-fs-spiffs
+  path: /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-spiffs
   init_deps:
   - vfs-common
   sources:
-  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/vfs-fs-spiffs/src
-  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/vfs-fs-spiffs/src/spiffs
+  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-spiffs/src
+  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-spiffs/src/spiffs
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/core
     location: https://github.com/mongoose-os-libs/core
     name: core
-  path: /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/core
+  path: /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/core
   init_deps:
   - mongoose
   - vfs-common
@@ -318,18 +318,18 @@ libs_handled:
   - vfs-fs-lfs
   - vfs-fs-spiffs
   sources:
-  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/core/src
-  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/core/src/esp8266
+  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/core/src
+  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/core/src/esp8266
   version: "1.0"
 - lib:
     origin: https://github.com/mongoose-os-libs/arduino-compat
     location: https://github.com/mongoose-os-libs/arduino-compat
     name: arduino-compat
-  path: /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/arduino-compat
+  path: /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/arduino-compat
   init_deps:
   - core
   sources:
-  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_224795999/deps/arduino-compat/src
+  - /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/arduino-compat/src
   version: "1.0"
 init_deps:
 - mongoose
