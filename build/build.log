@@ -1,0 +1,131 @@
+Handling lib "arduino-compat"...
+Handling lib "core"...
+arduino-compat: Does not exist, cloning from "https://github.com/mongoose-os-libs/arduino-compat"...
+core: Does not exist, cloning from "https://github.com/mongoose-os-libs/core"...
+core: Checking out 2.18.0...
+core: Done, hash c7359ef09e0f75bd693d88672ba9665b84d0e46a
+core: Hash is updated:  -> c7359ef09e0f75bd693d88672ba9665b84d0e46a
+core: Prepared local dir: "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/core"
+arduino-compat: Checking out 2.18.0...
+arduino-compat: Done, hash 95fd996501b533937521d2257e15add76364f798
+arduino-compat: Hash is updated:  -> 95fd996501b533937521d2257e15add76364f798
+arduino-compat: Prepared local dir: "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/arduino-compat"
+Handling lib "mongoose"...
+mongoose: Does not exist, cloning from "https://github.com/mongoose-os-libs/mongoose"...
+mongoose: Checking out 2.18.0...
+mongoose: Done, hash 135dae3e5280c09e6416a3797effb507b93eef1d
+mongoose: Hash is updated:  -> 135dae3e5280c09e6416a3797effb507b93eef1d
+mongoose: Prepared local dir: "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mongoose"
+Handling lib "vfs-common"...
+Handling lib "mbedtls"...
+vfs-common: Does not exist, cloning from "https://github.com/mongoose-os-libs/vfs-common"...
+mbedtls: Does not exist, cloning from "https://github.com/mongoose-os-libs/mbedtls"...
+vfs-common: Checking out 2.18.0...
+vfs-common: Done, hash 385648d692685da59be1800d777839050403f39a
+vfs-common: Hash is updated:  -> 385648d692685da59be1800d777839050403f39a
+vfs-common: Prepared local dir: "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-common"
+mbedtls: Checking out 2.18.0...
+mbedtls: Done, hash 9ee056272d354d144e714791c4ba9a67c1ff8763
+mbedtls: Hash is updated:  -> 9ee056272d354d144e714791c4ba9a67c1ff8763
+mbedtls: Prepared local dir: "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mbedtls"
+Handling lib "atca"...
+atca: Does not exist, cloning from "https://github.com/mongoose-os-libs/atca"...
+atca: Checking out 2.18.0...
+atca: Done, hash 4ed29060b9d0be153189af5dc196bd8458451362
+atca: Hash is updated:  -> 4ed29060b9d0be153189af5dc196bd8458451362
+atca: Prepared local dir: "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca"
+Handling lib "i2c"...
+i2c: Does not exist, cloning from "https://github.com/mongoose-os-libs/i2c"...
+i2c: Checking out 2.18.0...
+i2c: Done, hash a411757db65da6890a30028244c8fc932d45f6f2
+i2c: Hash is updated:  -> a411757db65da6890a30028244c8fc932d45f6f2
+i2c: Prepared local dir: "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/i2c"
+Handling lib "vfs-dev-part"...
+Handling lib "vfs-fs-lfs"...
+Handling lib "vfs-fs-spiffs"...
+vfs-dev-part: Does not exist, cloning from "https://github.com/mongoose-os-libs/vfs-dev-part"...
+vfs-fs-lfs: Does not exist, cloning from "https://github.com/mongoose-os-libs/vfs-fs-lfs"...
+vfs-fs-spiffs: Does not exist, cloning from "https://github.com/mongoose-os-libs/vfs-fs-spiffs"...
+vfs-dev-part: Checking out 2.18.0...
+vfs-dev-part: Done, hash 94426df449f807e4268e1d1a3ee5146da85902da
+vfs-dev-part: Hash is updated:  -> 94426df449f807e4268e1d1a3ee5146da85902da
+vfs-dev-part: Prepared local dir: "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-dev-part"
+vfs-fs-spiffs: Checking out 2.18.0...
+vfs-fs-spiffs: Done, hash 68c0482c3e42db3f1172d0e43a2f24de0314cbee
+vfs-fs-spiffs: Hash is updated:  -> 68c0482c3e42db3f1172d0e43a2f24de0314cbee
+vfs-fs-spiffs: Prepared local dir: "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-spiffs"
+vfs-fs-lfs: Checking out 2.18.0...
+vfs-fs-lfs: Done, hash 736da1eac473715f397982d3a8141c2f1865a71a
+vfs-fs-lfs: Hash is updated:  -> 736da1eac473715f397982d3a8141c2f1865a71a
+vfs-fs-lfs: Prepared local dir: "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-lfs"
+The flag --repo is not given, going to use mongoose-os repository
+mongoose-os: Does not exist, cloning from "https://github.com/cesanta/mongoose-os"...
+mongoose-os: Checking out 2.18.0...
+mongoose-os: Done, hash 24c520dc82b5c602e33f34d8e309f13ab4a13652
+Sources: [/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/src/mgos_mhz19.c /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/src/MHZ19.cpp /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/src/mgos_mhz19.cpp]
+Include dirs: [/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/i2c/include /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/include /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/cryptoauthlib/lib /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/cryptoauthlib/lib/crypto /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/cryptoauthlib/lib/hal /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mbedtls/include /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mbedtls/include/esp8266 /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mbedtls/mbedtls/include /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-common/include /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-common/include/esp8266 /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mongoose/include /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-dev-part/include /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-lfs/include /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-lfs/littlefs /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-lfs/littlefs1 /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-spiffs/include /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-spiffs/include/spiffs /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-spiffs/include/esp8266 /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/core/include /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/core/include/esp8266 /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/arduino-compat/include /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/arduino-compat/include/sys /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/include]
+Binary libs: []
+Building...
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161" to "/app"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/modules/mongoose-os" to "/mongoose-os"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/modules/mongoose-os" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/modules/mongoose-os"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/build" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/build"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/src" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/src"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/i2c/include" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/i2c/include"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/include" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/include"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/cryptoauthlib/lib" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/cryptoauthlib/lib"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/cryptoauthlib/lib/crypto" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/cryptoauthlib/lib/crypto"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/cryptoauthlib/lib/hal" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/cryptoauthlib/lib/hal"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mbedtls/include" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mbedtls/include"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mbedtls/include/esp8266" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mbedtls/include/esp8266"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mbedtls/mbedtls/include" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mbedtls/mbedtls/include"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-common/include" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-common/include"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-common/include/esp8266" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-common/include/esp8266"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mongoose/include" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mongoose/include"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-dev-part/include" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-dev-part/include"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-lfs/include" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-lfs/include"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-lfs/littlefs" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-lfs/littlefs"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-lfs/littlefs1" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-lfs/littlefs1"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-spiffs/include" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-spiffs/include"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-spiffs/include/spiffs" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-spiffs/include/spiffs"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-spiffs/include/esp8266" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-spiffs/include/esp8266"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/core/include" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/core/include"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/core/include/esp8266" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/core/include/esp8266"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/arduino-compat/include" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/arduino-compat/include"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/arduino-compat/include/sys" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/arduino-compat/include/sys"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/include" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/include"
+mount from "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/build/gen" to "/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/build/gen"
+Docker arguments: run --name mos_build_2020-11-25T10-33-22-00_3678493217834126288 --rm -i -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/modules/mongoose-os:/mongoose-os -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mbedtls/include:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mbedtls/include -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-spiffs/include/esp8266:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-spiffs/include/esp8266 -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mbedtls/mbedtls/include:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mbedtls/mbedtls/include -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-common/include/esp8266:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-common/include/esp8266 -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-lfs/littlefs:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-lfs/littlefs -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/core/include/esp8266:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/core/include/esp8266 -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/arduino-compat/include:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/arduino-compat/include -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/include:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/include -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/build/gen:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/build/gen -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mbedtls/include/esp8266:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mbedtls/include/esp8266 -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-common/include:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-common/include -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mongoose/include:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/mongoose/include -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-spiffs/include:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-spiffs/include -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/build:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/build -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/src:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/src -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/cryptoauthlib/lib:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/cryptoauthlib/lib -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/modules/mongoose-os:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/modules/mongoose-os -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-dev-part/include:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-dev-part/include -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/arduino-compat/include/sys:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/arduino-compat/include/sys -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/include:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/include -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/cryptoauthlib/lib/crypto:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/cryptoauthlib/lib/crypto -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/cryptoauthlib/lib/hal:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/atca/cryptoauthlib/lib/hal -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-lfs/include:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-lfs/include -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-spiffs/include/spiffs:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-spiffs/include/spiffs -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161:/app -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/i2c/include:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/i2c/include -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-lfs/littlefs1:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/vfs-fs-lfs/littlefs1 -v /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/core/include:/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/core/include --user 0:0 docker.io/mgos/esp8266-build:2.2.x_a0b13112-r8 /bin/bash -c nice make '-j' '8' '-C' '/app' '-f' '/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/modules/mongoose-os/platforms/esp8266/Makefile.build' '/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/build/objs/lib.a' 'MGOS_VARS_FILE=/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/build/gen/vars.mk'
+make: Entering directory '/app'
+  MKDIR /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/build/objs
+  GEN   /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/build/gen/mgos_config.c
+  GEN   /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/build/gen/mgos_ro_vars.c
+  CC    /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/src/mgos_mhz19.c
+  CXX    /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/src/MHZ19.cpp
+  CXX    /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/src/mgos_mhz19.cpp
+In file included from /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/include/MHZ19.h:12,
+                 from /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/src/MHZ19.cpp:8:
+/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/include/SoftwareSerial.h:22:10: fatal error: circular_queue/circular_queue.h: No such file or directory
+   22 | #include "circular_queue/circular_queue.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/build/objs/MHZ19.cpp.o] Error 1
+make: *** Waiting for unfinished jobs....
+/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/modules/mongoose-os/platforms/esp8266/Makefile.build:383: recipe for target '/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/build/objs/MHZ19.cpp.o' failed
+In file included from /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/include/MHZ19.h:12,
+                 from /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/include/mgos_mhz19.h:5,
+                 from /data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/src/mgos_mhz19.cpp:1:
+/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/include/SoftwareSerial.h:22:10: fatal error: circular_queue/circular_queue.h: No such file or directory
+   22 | #include "circular_queue/circular_queue.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/build/objs/mgos_mhz19.cpp.o] Error 1
+/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/deps/modules/mongoose-os/platforms/esp8266/Makefile.build:383: recipe for target '/data/fwbuild-volumes/2.18.0/apps/mhz19/esp8266/build_contexts/build_ctx_497039161/build/objs/mgos_mhz19.cpp.o' failed
+make: Leaving directory '/app'
+Error: exit status 2
+/src/cli/build_local.go:697: 
+/src/cli/build_local.go:684: 
+/src/cli/build_local.go:449: 
+/src/cli/build.go:270: 
+/src/cli/build.go:213: 
+/src/cli/main.go:198: build failed
