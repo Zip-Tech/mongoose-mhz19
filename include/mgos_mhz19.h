@@ -10,8 +10,26 @@ extern "C"
 #endif
 
 #define MGOS_MHZ19_RES_FAIL -10000
+/*
+ * Initialize mhz19 library.
+ * Return value: OneWire handle opaque pointer.
+ */
+MHZ19 *mgos_mhz19_create();
 
-int mgos_mhz19_getCO2Raw(MHZ19 *mhz19);
+/*
+ * Initialize the sensor with given parameters/settings.
+ * Returns 0 if the sensor not plugged or a checking failed,
+ * i.e. the chip ID is incorrect.
+ * Returns 1 otherwise.
+ */
+void mgos_mhz19_begin(MHZ19 *mhz, Stream &stream);
+
+/*
+ * Close MHZ19 handle. Return value: none.
+ */
+void mgos_mhz19_close(MHZ19 *mhz);
+
+// int mgos_mhz19_getCO2Raw(MHZ19 *mhz19);
 
 #ifdef __cplusplus
 }
