@@ -6,9 +6,9 @@ MHZ19 *mgos_mhz19_create() {
   return new MHZ19();
 }
 
-void mgos_mhz19_begin(MHZ19 *mhz, Stream &stream) {
-  if (mhz == nullptr) break;
-  return mhz->begin(stream);
+void mgos_mhz19_begin(MHZ19 *mhz, Stream &serial) {
+  if (mhz == nullptr) return;
+  return mhz->begin(serial);
 }
 
 void mgos_mhz19_close(MHZ19 *mhz) {
