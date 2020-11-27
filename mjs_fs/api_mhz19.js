@@ -20,7 +20,7 @@ let MHZ19 = {
     //     // Initialize MHZ19 library.
     //     // Return value: handle opaque pointer.
     //     obj.mhz = MHZ19._c();
-    //     let b = MHZ19._begin(obj.mhz, serial);
+    //     let b = MHZ19._begin(obj.mhz);
     //     if (b === 0) {
     //     // Can't find a sensor
     //         return undefined;

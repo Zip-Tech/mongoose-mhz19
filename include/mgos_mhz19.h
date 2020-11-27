@@ -22,7 +22,8 @@ MHZ19 *mgos_mhz19_create();
  * i.e. the chip ID is incorrect.
  * Returns 1 otherwise.
  */
-void mgos_mhz19_begin(MHZ19 *mhz, Stream &stream);
+// void mgos_mhz19_begin(MHZ19 *mhz, Stream &stream);
+// void mgos_mhz19_begin(MHZ19 *mhz);
 
 /*
  * Close MHZ19 handle. Return value: none.
