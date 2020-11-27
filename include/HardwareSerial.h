@@ -145,16 +145,16 @@ public:
     {
         return uart_read(_uart, buffer, size);
     }
-    size_t readBytes(char* buffer, size_t size) override;
-    size_t readBytes(uint8_t* buffer, size_t size) override
+    size_t readBytes(char* buffer, size_t size);
+    size_t readBytes(uint8_t* buffer, size_t size)
     {
         return readBytes((char*)buffer, size);
     }
-    int availableForWrite(void) override
+    int availableForWrite(void)
     {
         return static_cast<int>(uart_tx_free(_uart));
     }
-    void flush(void) override;
+    void flush(void);
     size_t write(uint8_t c) override
     {
         return uart_write_char(_uart, c);
