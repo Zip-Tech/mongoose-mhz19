@@ -29,7 +29,10 @@ void mgos_mhz19_begin(MHZ19 *mhz, Stream &stream);
  */
 void mgos_mhz19_close(MHZ19 *mhz);
 
-// int mgos_mhz19_getCO2Raw(MHZ19 *mhz19);
+/*
+ * Get co2 value
+ */
+int mgos_mhz19_getCO2(MHZ19 *mhz);
 
 #ifdef __cplusplus
 }
